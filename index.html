@@ -1,0 +1,276 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitacion Alexa Yamile</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+  </head>
+
+  <body class="center">
+    <div class="content">
+      <section class="section-home">
+        <div class="home-content">
+          <img class="home-img" alt="photo" src="./assets/img/portada.jpeg" />
+        </div>
+      </section>
+
+      <section class="informacion-principal">
+        <div class="titulo">
+          <h1>Mis XV</h1>
+          <h2>Alexa Yamile</h2>
+          <p class="frase">
+            Con la bendición de Dios y el amor de mis padres, quiero compartir
+            contigo un día muy especial
+          </p>
+        </div>
+      </section>
+
+      <section class="musica">
+        <div class="music-card">
+          <div class="song-title">Mi Canción</div>
+          <div class="artist-name">Perfect - Ed Sheeran</div>
+
+          <button class="play-button" id="playPauseBtn">▶</button>
+
+          <div class="progress-container">
+            <div class="progress" id="progressBar"></div>
+          </div>
+
+          <audio id="audioPlayer" src="./assets/music/"></audio>
+          <!-- Cambia por tu archivo mp3 -->
+        </div>
+      </section>
+
+      <section class="section-info">
+        <div class="overlay-section-info">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="box-info">
+          <div class="info-primary">
+            <h1>Alexa Yamile</h1>
+            <p>
+              Con el amor inmenso de mis padres, que han sido mi guía y mi
+              apoyo, hoy celebro con alegría el inicio de una nueva etapa.
+            </p>
+          </div>
+          <div class="info-secundary">
+            <div class="info-content">
+              <b>Mis Padres</b>
+              <ul>
+                <li>Cesar Jiménez García</li>
+                <li>Erika palacios dela peña</li>
+              </ul>
+            </div>
+            <div class="info-content">
+              <b>Mi Madrina</b>
+              <ul>
+                <li>Alondra Castro García</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-date">
+            <div class="date-info center">
+              <img width="200" src="./assets/img/separador.png" alt="rings" />
+              <p class="date-text">
+                Estamos a pocos momentos de celebrar juntos esta gran alegría.
+              </p>
+            </div>
+            <div class="date-box">
+              <h2>SÁBADO</h2>
+              <ul class="center">
+                <li>NOV</li>
+                <li>15</li>
+                <li>16:00</li>
+              </ul>
+            </div>
+            <ul class="date-time">
+              <li>
+                <div class="time_number" id="dias"></div>
+                <div class="time_txt">Días</div>
+              </li>
+              <li>
+                <div class="time_number" id="horas"></div>
+                <div class="time_txt">Horas</div>
+              </li>
+              <li>
+                <div class="time_number" id="minutos"></div>
+                <div class="time_txt">Minutos</div>
+              </li>
+              <li>
+                <div class="time_number" id="segundos"></div>
+                <div class="time_txt">Segundos</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-galeria-carousel">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/1.jpeg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/2.jpeg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/3.jpeg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/4.jpeg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section-place">
+        <div class="overlay-section-place">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="box-place">
+          <div class="place-info center">
+            <img
+              width="75"
+              src="./assets/icons/church.svg"
+              alt="church"
+              fill="#000000"
+            />
+            <div class="place-txt">
+              <h2>Ceremonia</h2>
+              <p>Parroquia de San Francisco de Asis Tlaltenco</p>
+            </div>
+          </div>
+          <a
+            class="place-btn"
+            href="https://maps.app.goo.gl/KtEZqthveZDypSaTA"
+            target="_blank"
+          >
+            VER UBICACIÓN
+          </a>
+        </div>
+      </section>
+
+      <section class="section-place-salon">
+        <div class="overlay-section-place">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="box-place-salon">
+          <div class="place-info center">
+            <img width="120" src="./assets/icons/bola.png" alt="disco" />
+            <div class="place-txt fiesta">
+              <h2>Recepción / Fiesta</h2>
+              <p>Av san Francisco Tlaltenco #503 col: Selene cp13420</p>
+            </div>
+          </div>
+          <a
+            class="place-btn"
+            href="https://maps.app.goo.gl/gkb8CgSjq2NZUHjf8"
+            target="_blank"
+          >
+            VER UBICACIÓN
+          </a>
+        </div>
+      </section>
+
+      <section class="section-galeria">
+        <section class="section-info-adicional">
+          <div class="info-clothes">
+            <img height="70" src="./assets/icons/Clothes.svg" alt="clothes" />
+            <div class="clothes-txt">
+              <h2>Vestimenta</h2>
+              <p>
+                La vestimenta para el evento es Etiqueta o Atuendo formal. Te
+                invitamos a asistir con ropa elegante acorde a la ocasión.
+              </p>
+            </div>
+          </div>
+          <div class="info-separator">
+            <img width="200" src="./assets/img/separador.png" alt="separator" />
+          </div>
+          <div class="info-envelope">
+            <img width="70" src="./assets/icons/envelope.svg" alt="envelope" />
+            <div class="envelope-txt"></div>
+            <h2>Mesa de regalos</h2>
+            <p>
+              Tu presencia es el mejor regalo, pero si deseas darme un detalle,
+              puedes hacerlo a través de este número de cuenta:<br />
+              <span style="font-size: 0.95em; color: #555">
+                <b>4027660006556429</b>
+              </span>
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <section class="section-message">
+        <div class="overlay-section-message">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="box-message">
+          <p>
+            Entre risas, sueños y esperanza, florece una nueva etapa... mis xv
+            años y sería un honor que me acompañaras en este momento tan
+            especial.
+          </p>
+          <b>¡Gracias por acompañarnos!</b>
+          <button class="confirmar">
+            <a href="https://wa.link/ll4z9u"> Confirmar asistencia </a>
+          </button>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        Design by
+        <a
+          href="https://www.facebook.com/profile.php?id=61568997140138"
+          target="_blank"
+          >Mirai</a
+        >
+        @2025
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
