@@ -2,27 +2,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 :root {
-  --bg-blanco: #f2f2f0;
-  --bg-color-1: #79132b;
-  --bg-color-2: #a66963;
-  --bg-color-3: #260101;
-  --bg-color-4: #a66963;
+  --bg-blanco: #ffffff; /* Blanco azulado */
+
+  --bg-color-1: #0a2a6c; /* Azul rey fuerte */
+  --bg-color-2: #3b5aa9; /* Azul intermedio */
+  --bg-color-3: #021133; /* Azul muy oscuro */
+  --bg-color-4: #3b5aa9; /* Igual que color-2 para mantener consistencia */
 
   --txt-body: #000000;
   --white: #ffffff;
   --gray: #989898;
 
-  --bg-verde-opacity-50: #79132b;
+  --bg-verde-opacity-50: #0a2a6c; /* Mantengo el principal en azul rey */
 
-  --bg-section-light: #fffaec;
-  --bg-section-dark: #2c2c2c;
-  --bg-footer: #8c7f65;
+  --bg-section-light: #fffaec; /* Azul muy claro para secciones claras */
+  --bg-section-dark: #2c2c2c; /* Azul casi negro para secciones oscuras */
+  --bg-footer: #506b9c; /* Azul grisáceo para footer */
 
   --bg-gradient: linear-gradient(
     131deg,
-    #eee6da -3.63%,
-    #79132b 70.5%,
-    #590202 100.94%
+    #e4ebf9 -3.63%,
+    /* Azul muy claro */ #0a2a6c 70.5%,
+    /* Azul rey */ #021133 100.94% /* Azul muy oscuro */
   );
 
   --font-titulos: "Playfair Display", serif;
